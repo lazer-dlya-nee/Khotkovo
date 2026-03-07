@@ -326,3 +326,56 @@ box-shadow:0 8px 20px rgba(255,50,150,0.35);
     font-size: 16px;
     line-height: 1.5;
 }
+
+.prep-button{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+
+margin:30px auto;
+width:90%;
+max-width:420px;
+
+padding:16px 22px;
+
+background:linear-gradient(90deg,#ff4d8d,#ff2e77);
+color:white;
+
+font-size:18px;
+font-weight:600;
+
+border-radius:35px;
+text-decoration:none;
+
+box-shadow:0 12px 30px rgba(255,60,120,0.35);
+
+transition:all 0.25s ease;
+
+animation:pulseGlow 2.5s infinite;
+}
+
+.prep-button:hover{
+transform:translateY(-3px);
+box-shadow:0 16px 35px rgba(255,60,120,0.45);
+}
+
+.prep-icon{
+font-size:20px;
+}
+
+@keyframes pulseGlow{
+
+0%{
+box-shadow:0 12px 30px rgba(255,60,120,0.35);
+}
+
+50%{
+box-shadow:0 16px 40px rgba(255,60,120,0.55);
+}
+
+100%{
+box-shadow:0 12px 30px rgba(255,60,120,0.35);
+}
+
+}
