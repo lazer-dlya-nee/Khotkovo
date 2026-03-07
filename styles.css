@@ -293,3 +293,36 @@ cursor:pointer;
 box-shadow:0 8px 20px rgba(255,50,150,0.35);
 
 }
+
+.prep-section {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.prep-section h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.prep-sub {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.prep-list {
+    display: grid;
+    gap: 15px;
+}
+
+.prep-item {
+    background: #f9f9f9;
+    padding: 15px 18px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+}
